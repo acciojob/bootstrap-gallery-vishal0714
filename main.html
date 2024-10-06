@@ -1,105 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cards Gallery</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-    <style>
-        .card {
-            border-radius: 10px;
-        }
-
-        .card-body {
-            text-align: center;
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
 </head>
-
+	
 <body>
-    <div class="container mt-5">
-        <h2 class="text-center">Cards Gallery</h2>
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top" alt="Image 1">
-                    </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 1</h6>
-                        <p class="card-text">Details about Image 1.</p>
-                    </div>
-                </div>
+	<section class="gallery-block grid-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>Cards Gallery</h2>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 1">
+            <div class="row">
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg">
+                        <img class="img-fluid image scale-on-hover"
+                            src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg">
                     </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 1</h6>
-                        <p class="card-text">Details about Image 1.</p>
-                    </div>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+					
                 </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="Image 1">
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg">
+                        <img class="img-fluid image scale-on-hover"
+                            src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg">
                     </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 1</h6>
-                        <p class="card-text">Details about Image 1.</p>
-                    </div>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
                 </div>
-            </div>
-            <!-- Repeat for other cards -->
-            <!-- Card 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="Image 2">
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg">
+                        <img class="img-fluid image scale-on-hover"
+                            src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg">
                     </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 2</h6>
-                        <p class="card-text">Details about Image 2.</p>
-                    </div>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
                 </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="Image 3">
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg">
+                        <img class="img-fluid image scale-on-hover" src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg">
                     </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 3</h6>
-                        <p class="card-text">Details about Image 3.</p>
-                    </div>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
                 </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" data-lightbox="gallery">
-                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="Image 4">
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg">
+                        <img class="img-fluid image scale-on-hover" src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg">
                     </a>
-                    <div class="card-body">
-                        <h6 class="card-title">Description 4</h6>
-                        <p class="card-text">Details about Image 4.</p>
-                    </div>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+                </div>
+                <div class="card col-md-6 col-lg-4 item">
+					
+                    <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg">
+                        <img class="img-fluid image scale-on-hover" src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg">
+                    </a>
+					<div class="card-body">
+						<h6>Description</h6>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+        </script>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
